@@ -1,0 +1,26 @@
+{
+  "name": "contents-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "aquaworks <aquaworks@live.jp>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "build:production": "NODE_ENV=production yarn run build"
+  },
+  "dependencies": {
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.126",
+    "@types/copy-webpack-plugin": "^6.3.0",
+    "@types/webpack": "^4.41.25",
+    "copy-webpack-plugin": "^7.0.0",
+    "ts-loader": "^8.0.12",
+    "typescript": "^4.1.2",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
